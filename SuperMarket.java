@@ -1,3 +1,5 @@
+/* made by SxheenoScripts on github
+
 import java.util.Scanner;
 
 //In this part we will finally execute code that will get us all details of a product
@@ -39,3 +41,4 @@ public class SuperMarket {
 
     }
 }
+*/
