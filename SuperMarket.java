@@ -2,15 +2,15 @@
 
 import java.util.Scanner;
 
-//In this part we will finally execute code that will get us all details of a product
+//In this part we will finally execute code that will get us all details of a product//SxheenoScripts
 //We will use scanner class of Java to get input and we will make few products to test
 
 public class SuperMarket {
     public static void main(String[] args) throws Exception {
-        //declare or make object input fron the Scanner to record input data
+        //declare or make object input fron the Scanner to record input data//SxheenoScripts
         Scanner input = new Scanner(System.in);
 
-        //make object fron our SuperMarket class
+        //make object fron our SuperMarket class//SxheenoScripts
         SupermarketM apple = new SupermarketM("Fiji Apples.", "Grown and picked straight from the Fiji mountain in nepal.", 500, 1.6);
         SupermarketM chocolate = new SupermarketM("Hershey's Milk Chocolate Bar.", "Chocolate var, Gluten Free, Soy Free, Nuts Free.", 45, 0.5);
         SupermarketM chips = new SupermarketM("Pringles Honey Barbeque Flavored.", "Imported from france, Gluten Free", 380, 0.7);
@@ -31,12 +31,12 @@ public class SuperMarket {
         {
             chips.makeProduct();
         }
-        //if answer is not of the any above it will print the following:
+        //if answer is not of the any above it will print the following: //SxheenoScripts
         else
         {
             System.out.println("Sorry we don't have "+answer+" in stock :(");
         }
-        //good practice to close your scanner when not in use
+        //good practice to close your scanner when not in use//SxheenoScripts
         input.close();
 
     }
