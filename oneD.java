@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class oneD {
 
    public static void rev(int[] ora, int j) 
     {
